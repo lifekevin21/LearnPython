@@ -7,7 +7,7 @@ from PIL import Image, ImageDraw, ImageFont, ImageFilter
 
 
 # 字体的位置
-font_path = 'C:\Windows\Fonts'
+font_path = '/System/Library/Fonts'
 
 # 生成验证码的位数
 number = 4
