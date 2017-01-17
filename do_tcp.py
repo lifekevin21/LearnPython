@@ -31,6 +31,8 @@ with open('sina.html', 'wb') as f:
 
 
 # server
+
+
 import socket
 import threading
 import time
