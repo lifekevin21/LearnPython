@@ -1,14 +1,18 @@
 # -*- coding: utf-8 -*-
 
-########## prepare ##########
 
 # install mysql-connector-python:
 # pip3 install mysql-connector-python --allow-external mysql-connector-python
 
 import mysql.connector
 
+user = 'test'
+pwd = '123456'
+host = '10.251.51.136'
+db = 'test'
+
 # change root password to yours:
-conn = mysql.connector.connect(user='root', password='password', database='test')
+conn = mysql.connector.connect(user=user, password=pwd, host=host, database=db)
 
 cursor = conn.cursor()
 # 创建user表:
